@@ -1,0 +1,16 @@
+{
+  "name": "real-time-chat",
+  "version": "1.0.0",
+  "description": "A real-time chat application",
+  "main": "server/server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.1",
+    "mongoose": "^5.12.3"
+  },
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
